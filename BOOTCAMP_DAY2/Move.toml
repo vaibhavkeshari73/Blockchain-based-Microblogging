@@ -1,0 +1,15 @@
+[package]
+name = "Blockchain-based-Microblogging"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xc31bfe335ff942d0f7034d3c23162f034f1887e46a10ca38b590c05b09fad10f"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
